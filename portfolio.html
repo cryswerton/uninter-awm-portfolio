@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfólio — Currículo Online</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,600;0,9..40,700;1,9..40,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="site-brand" href="sobre.html">Cryswerton Silva</a>
+    <button type="button" class="nav-toggle" id="navToggle" aria-label="Abrir menu de navegação" aria-expanded="false" aria-controls="siteNav">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+    <nav class="site-nav" id="siteNav" aria-label="Principal">
+      <ul class="nav-list">
+        <li><a href="sobre.html">Sobre mim</a></li>
+        <li><a href="formacao.html">Formação</a></li>
+        <li><a href="portfolio.html" class="is-active">Portfólio</a></li>
+        <li><a href="contato.html">Contato</a></li>
+      </ul>
+      <button type="button" class="theme-toggle" id="themeToggle" title="Alternar tema claro ou escuro">Tema</button>
+    </nav>
+  </header>
+
+  <div class="nav-overlay" id="navOverlay" aria-hidden="true"></div>
+
+  <main class="page-main">
+    <h1 class="page-title">Portfólio</h1>
+    <p class="lead">Alguns trabalhos e repositórios de exemplo; substitua pelos seus links reais quando disponíveis.</p>
+
+    <section class="section-block" aria-labelledby="sec-projetos">
+      <h2 id="sec-projetos">Projetos selecionados</h2>
+      <div class="project-grid">
+        <article class="project-card">
+          <h3>Landing page — Produto SaaS fictício</h3>
+          <p>Layout responsivo com CSS Grid, formulário de captura e seções de preços. HTML e CSS sem frameworks.</p>
+          <!-- URL de demonstração genérica; trocar pelo repositório real -->
+          <a class="project-link" href="https://github.com" target="_blank" rel="noopener noreferrer">Ver no GitHub →</a>
+        </article>
+        <article class="project-card">
+          <h3>Dashboard de tarefas (protótipo)</h3>
+          <p>Lista de tarefas com filtros em JavaScript puro, persistência em localStorage e tema claro/escuro.</p>
+          <a class="project-link" href="https://github.com" target="_blank" rel="noopener noreferrer">Ver no GitHub →</a>
+        </article>
+        <article class="project-card">
+          <h3>Catálogo de receitas</h3>
+          <p>Consumo de API pública de receitas, cards com lazy loading de imagens e estados de carregamento/erro.</p>
+          <a class="project-link" href="https://github.com" target="_blank" rel="noopener noreferrer">Ver no GitHub →</a>
+        </article>
+        <article class="project-card">
+          <h3>Documentação pessoal (Markdown)</h3>
+          <p>Notas de estudo de acessibilidade e semântica HTML reunidas em repositório organizado por tópicos.</p>
+          <a class="project-link" href="https://github.com" target="_blank" rel="noopener noreferrer">Ver no GitHub →</a>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© 2026 Cryswerton Silva — Currículo online · Aplicação Web e Móveis</p>
+  </footer>
+
+  <script src="js/main.js" defer></script>
+</body>
+</html>

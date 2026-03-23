@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formação — Currículo Online</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,600;0,9..40,700;1,9..40,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="site-brand" href="sobre.html">Cryswerton Silva</a>
+    <button type="button" class="nav-toggle" id="navToggle" aria-label="Abrir menu de navegação" aria-expanded="false" aria-controls="siteNav">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+    <nav class="site-nav" id="siteNav" aria-label="Principal">
+      <ul class="nav-list">
+        <li><a href="sobre.html">Sobre mim</a></li>
+        <li><a href="formacao.html" class="is-active">Formação</a></li>
+        <li><a href="portfolio.html">Portfólio</a></li>
+        <li><a href="contato.html">Contato</a></li>
+      </ul>
+      <button type="button" class="theme-toggle" id="themeToggle" title="Alternar tema claro ou escuro">Tema</button>
+    </nav>
+  </header>
+
+  <div class="nav-overlay" id="navOverlay" aria-hidden="true"></div>
+
+  <main class="page-main">
+    <h1 class="page-title">Formação</h1>
+    <p class="lead">Trajetória acadêmica, cursos complementares e idiomas — conteúdo de exemplo para substituição posterior.</p>
+
+    <section class="section-block" aria-labelledby="sec-graduacao">
+      <h2 id="sec-graduacao">Formação acadêmica mais recente</h2>
+      <div class="timeline">
+        <article class="timeline-item">
+          <h3>Tecnólogo em Análise e Desenvolvimento de Sistemas</h3>
+          <p class="timeline-meta">Centro Universitário Uninter · 2024 — 2026 (em andamento)</p>
+          <p>
+            Foco em engenharia de software, banco de dados e desenvolvimento web. Trabalho de conclusão de curso em planejamento
+            sobre acessibilidade em SPAs.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section-block" aria-labelledby="sec-cursos">
+      <h2 id="sec-cursos">Cursos e certificações</h2>
+      <div class="timeline">
+        <article class="timeline-item">
+          <h3>JavaScript: fundamentos e DOM</h3>
+          <p class="timeline-meta">Plataforma fictícia DevAcademy · 40h · 2025</p>
+          <p>Manipulação do DOM, eventos e boas práticas de organização de scripts.</p>
+        </article>
+        <article class="timeline-item">
+          <h3>Git e GitHub para trabalho em equipe</h3>
+          <p class="timeline-meta">Plataforma fictícia DevAcademy · 12h · 2025</p>
+          <p>Branches, pull requests e resolução básica de conflitos.</p>
+        </article>
+        <article class="timeline-item">
+          <h3>Introdução à UX Research</h3>
+          <p class="timeline-meta">Instituto fictício UX Brasil · 20h · 2024</p>
+          <p>Entrevistas com usuários e síntese de achados.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section-block" aria-labelledby="sec-idiomas">
+      <h2 id="sec-idiomas">Idiomas</h2>
+      <div class="lang-grid">
+        <div class="lang-card">
+          <strong>Português</strong>
+          <span>Nativo</span>
+        </div>
+        <div class="lang-card">
+          <strong>Inglês</strong>
+          <span>Intermediário — leitura técnica e conversação B1</span>
+        </div>
+        <div class="lang-card">
+          <strong>Espanhol</strong>
+          <span>Básico — compreensão oral e escrita</span>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© 2026 Cryswerton Silva — Currículo online · Aplicação Web e Móveis</p>
+  </footer>
+
+  <script src="js/main.js" defer></script>
+</body>
+</html>

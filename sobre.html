@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sobre mim — Currículo Online</title>
+  <!-- Tipografia web (sem framework; apenas fonte do Google Fonts) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,600;0,9..40,700;1,9..40,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <!-- Cabeçalho: marca + navegação fixa (repetida em todas as páginas) -->
+  <header class="site-header">
+    <a class="site-brand" href="sobre.html">Cryswerton Silva</a>
+    <button type="button" class="nav-toggle" id="navToggle" aria-label="Abrir menu de navegação" aria-expanded="false" aria-controls="siteNav">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+    <nav class="site-nav" id="siteNav" aria-label="Principal">
+      <ul class="nav-list">
+        <li><a href="sobre.html" class="is-active">Sobre mim</a></li>
+        <li><a href="formacao.html">Formação</a></li>
+        <li><a href="portfolio.html">Portfólio</a></li>
+        <li><a href="contato.html">Contato</a></li>
+      </ul>
+      <button type="button" class="theme-toggle" id="themeToggle" title="Alternar tema claro ou escuro">Tema</button>
+    </nav>
+  </header>
+
+  <!-- Overlay escuro quando o menu mobile está aberto -->
+  <div class="nav-overlay" id="navOverlay" aria-hidden="true"></div>
+
+  <main class="page-main" id="main">
+    <h1 class="page-title">Sobre mim</h1>
+    <p class="lead">Desenvolvedora web em formação, focada em acessibilidade e boas práticas de front-end.</p>
+
+    <section class="section-block profile-row" aria-labelledby="sec-apresentacao">
+      <h2 id="sec-apresentacao" class="visually-hidden">Apresentação</h2>
+      <!-- Placeholder visual: substituir src por foto real quando disponível -->
+      <img class="profile-avatar" src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=280&h=280&fit=crop" width="140" height="140" alt="Retrato ilustrativo (dados fictícios)">
+      <div>
+        <p>
+          Olá, sou o <strong>Cryswerton Silva</strong>. Moro em Curitiba, trabalho com prototipação de interfaces
+          e estudo Análise e Desenvolvimento de Sistemas. Gosto de transformar requisitos em telas claras e código semântico.
+        </p>
+        <p>
+          Nos últimos meses tenho me dedicado a HTML, CSS e JavaScript puro, além de fundamentos de UX. Busco uma primeira oportunidade
+          como desenvolvedora júnior ou estagiária em produtos digitais.
+        </p>
+      </div>
+    </section>
+
+    <section class="section-block" aria-labelledby="sec-hobbies">
+      <h2 id="sec-hobbies">Hobbies e interesses</h2>
+      <ul class="hobby-list">
+        <li>Fotografia de rua</li>
+        <li>Café especial</li>
+        <li>Leitura de ficção científica</li>
+        <li>Ciclismo urbano</li>
+        <li>Contribuições em projetos open source</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© 2026 Cryswerton Silva — Currículo online · Aplicação Web e Móveis</p>
+  </footer>
+
+  <script src="js/main.js" defer></script>
+</body>
+</html>
